@@ -33,7 +33,7 @@ class StdOutListener(StreamListener):
                 if 'IncludeReplyToUser' in data_discord:  # other Twitter user tweeting to your followed Twitter user
                     if data_discord['IncludeReplyToUser']:
                         if data['in_reply_to_user_id_str'] in data_discord['twitter_ids']:
-                            worth_posting = True
+                            worth_posting = False
             else:
                 worth_posting = True
                 # your followed Twitter users tweeting to random Twitter users
