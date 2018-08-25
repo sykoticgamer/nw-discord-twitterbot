@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repository="https://github.com/NNTin/discord-twitter-bot.git"
+repository="https://github.com/lambersond/discord-twitter-bot.git"
 localFolder="/home/pi/Desktop/discord-twitter-bot"
 sensitive="/home/pi/Desktop/sensitive/discord-twitter-bot"
 
