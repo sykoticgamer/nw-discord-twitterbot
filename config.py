@@ -15,9 +15,9 @@ else:
         },
         "Discord": [
             {
-                "IncludeReplyToUser": True,
-                "IncludeRetweet": True,
-                "IncludeUserReply": True,
+                "IncludeReplyToUser": False,
+                "IncludeRetweet": False,
+                "IncludeUserReply": False,
                 "webhook_urls": os.environ.get("WEBHOOK_URL", []).replace(" ", "").split(","),
                 "twitter_ids": os.environ.get("TWITTER_ID", []).replace(" ", "").split(",")
             }

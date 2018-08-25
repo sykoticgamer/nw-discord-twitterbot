@@ -7,8 +7,8 @@
     "twitter",
     "tweets"
   ],
-  "website": "https://nntin.github.io/discord-logo/",
-  "repository": "https://github.com/NNTin/discord-twitter-bot",
+  "website": "https://github.com/lambersond/",
+  "repository": "https://github.com/lambersond/discord-twitter-bot",
   "logo": "https://i.imgur.com/11zvdoc.png",
   "env": {
     "CONSUMER_KEY": {
@@ -31,15 +31,15 @@
     },
     "INCLUDE_REPLY_TO_USER": {
       "description": "Include replies from other Twitter users tweeting TO your tracked twitter user?",
-      "value": "True"
+      "value": "False"
     },
     "INCLUDE_RETWEET": {
       "description": "Include retweets?",
-      "value": "True"
+      "value": "False"
     },
     "INCLUDE_USER_REPLY": {
       "description": "Include replies FROM your tracked twitter user to other twitter users",
-      "value": "True"
+      "value": "False"
     }
   }
 }
